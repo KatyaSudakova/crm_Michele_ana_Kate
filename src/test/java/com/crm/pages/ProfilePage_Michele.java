@@ -1,19 +1,15 @@
 package com.crm.pages;
 
 import com.crm.utilities.Driver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class ProfilePage {
+public class ProfilePage_Michele {
 
 
     // Introduce this page to the driver
-    public ProfilePage(){
+    public ProfilePage_Michele(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
