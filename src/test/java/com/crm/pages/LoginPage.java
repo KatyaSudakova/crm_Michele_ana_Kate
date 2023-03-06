@@ -34,4 +34,6 @@ public class LoginPage {
     @FindBy(xpath = "//div[@class='user-block']")
     public WebElement userBlock;
 
+    @FindBy(xpath = "//span[.='My Profile']")
+    public WebElement myProfileOption;
 }
