@@ -31,4 +31,7 @@ public class LoginPage {
         // verification that we logged
     }
 
+    @FindBy(xpath = "//div[@class='user-block']")
+    public WebElement userBlock;
+
 }
