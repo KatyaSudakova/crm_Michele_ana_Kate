@@ -1,3 +1,4 @@
+@smoke @regression
 Feature: Users should be able to access user profile page
 
   Background: User is already on logged in and on the home page

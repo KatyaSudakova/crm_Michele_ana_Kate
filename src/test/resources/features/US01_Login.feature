@@ -1,4 +1,4 @@
-@US01
+@US01 @smoke @regression
 Feature: As a user, I should be able to log in to the application with valid credentials
 
   Scenario Outline: Verify login with valid credentials
