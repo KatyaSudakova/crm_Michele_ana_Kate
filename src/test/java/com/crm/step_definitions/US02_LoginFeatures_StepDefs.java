@@ -1,14 +1,12 @@
 package com.crm.step_definitions;
 
-import com.crm.pages.US02_Douglas_LoginPage;
-import io.cucumber.java.en.Given;
+import com.crm.pages.LoginPage_Douglas;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.WebElement;
 
-public class US02_Douglas_StepDefs {
+public class US02_LoginFeatures_StepDefs {
 
-    US02_Douglas_LoginPage US02LoginPage = new US02_Douglas_LoginPage();
+    LoginPage_Douglas US02LoginPage = new LoginPage_Douglas();
     @Then("verify there is a {string} message displayed")
     public void verify_there_is_a_message_displayed(String expectedMessage) {
         String actualMessage = US02LoginPage.loginFeatureMessage.getText();
