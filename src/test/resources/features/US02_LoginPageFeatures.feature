@@ -1,3 +1,4 @@
+@smoke @regression
 Feature: As a user, I should be able to access login page features.
 
   @B28G37-63

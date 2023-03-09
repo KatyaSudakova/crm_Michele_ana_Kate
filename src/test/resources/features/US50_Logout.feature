@@ -1,4 +1,4 @@
-@wip
+@smoke @regression
 Feature: User should be able to log out
 
   Background: User already logged in and sees the profile page
