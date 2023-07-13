@@ -1,7 +1,7 @@
 package com.crm.step_definitions;
 
 import com.crm.pages.LoginPage_Michele;
-import com.crm.pages.ProfilePage_Michele;
+import com.crm.pages.ProfilePage_Michele1;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -18,7 +18,7 @@ public class ProfilePageStepDefs {
     }
     @Then("the user sees these options- General Drive Tasks Calendar Conversations")
     public void the_user_sees_these_options_general_drive_tasks_calendar_conversations() {
-     ProfilePage_Michele profilePage = new ProfilePage_Michele();
+     ProfilePage_Michele1 profilePage = new ProfilePage_Michele1();
      profilePage.menuItem_General.isDisplayed();
      profilePage.menuItem_Drive.isDisplayed();
      profilePage.menuItem_Tasks.isDisplayed();

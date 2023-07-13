@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ProfilePage_Michele {
+public class ProfilePage_Michele1 {
 
 
     // Introduce this page to the driver
-    public ProfilePage_Michele(){
+    public ProfilePage_Michele1(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
